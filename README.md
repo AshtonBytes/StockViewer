@@ -29,11 +29,20 @@ The CSV data file should be named `GoldHistoricalData.csv` and should contain th
 
 pip install plotly pandas
 
-## Dependencies
+## Dependencies & Setup
+
+Create a virtual environment: python -m venv venv
+Activate the environment
+### On macOS/Linux:
+source venv/bin/activate
+### On Windows:
+.\venv\Scripts\activate
 
 The program depends upon the pandas and plotly libraries, which can be installed with pip
 Run the command:
 pip install pandas plotly
+or
+pip install -r requirements.txt
 
 ## Usage
 
